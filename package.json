@@ -18,5 +18,8 @@
     "debug": "^2.6.8",
     "express": "^4.15.3",
     "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "moment": "^2.18.1"
   }
 }
