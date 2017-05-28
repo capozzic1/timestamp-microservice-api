@@ -1,0 +1,1 @@
+set DEBUG=test node server.js
