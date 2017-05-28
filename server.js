@@ -9,7 +9,7 @@ let time = require('./time.js');
 let port = process.env.PORT || 8080;
 //use parser
 app.use(bodyParser.json());
-
+app.use('/static', express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get(['/:time','/'], function(req,res){
