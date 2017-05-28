@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get(['/:time','/'], function(req,res){
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "index.html");
   let data = req.params;
 
   if (data.time != undefined){
