@@ -3,21 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines":{
-    "node":"6.10.3",
-    "npm":"4.6.1"
+  "engines": {
+    "node": "6.10.3",
+    "npm": "4.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.1"
-  },
-  "devDependencies": {
-
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3"
   }
 }
