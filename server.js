@@ -6,7 +6,7 @@ let app = express();
 //maybe need body parser
 let bodyParser = require('body-parser');
 let time = require('./time.js');
-let port = process.env.Port || 8080;
+let port = process.env.PORT || 8080;
 //use parser
 app.use(bodyParser.json());
 
